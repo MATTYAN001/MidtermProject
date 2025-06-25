@@ -2,7 +2,6 @@ public class GameMaster {
     public static void main(String[] args) {
         Hero h = new Hero("アベル",100,"銅の剣");
         Slime s = new Slime("スライムA",30);
-       // Character c = new Character("名無し", 50);
         System.out.println("冒険が始まる…！");
         h.showStatus();
         s.showStatus();
